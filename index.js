@@ -21,7 +21,8 @@ app.use(express.urlencoded({ limit: '5mb', extended: true }));
 // Configurar Cors
 const whitelist = [
     'http://localhost:5173',
-    'https://exp.host'
+    'https://exp.host',
+    'https://studio.botpress.cloud'
 ];
 
 const corsOptions = {
